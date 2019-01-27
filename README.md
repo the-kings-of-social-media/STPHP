@@ -79,17 +79,17 @@ If you want to install the site locally, follow these instructions:
 3. Create a `.env` file at the root of the project with the following contents, and then update the `DB_USER` and `DB_PASSWORD` values to your database user’s credentials.
 
    ```dotenv
-ENVIRONMENT="dev"
-SECURITY_KEY="4kwV7F93eNqUoKEDkOZtTUNiO9x37R4O"
-DB_DRIVER="mysql"
-DB_SERVER="localhost"
-DB_USER="root"
-DB_PASSWORD="root"
-DB_DATABASE="stphp"
-DB_SCHEMA="public"
-DB_TABLE_PREFIX=""
-DB_PORT="3306"
-DEFAULT_SITE_URL="stphp.test"
+   ENVIRONMENT="dev"
+   SECURITY_KEY="4kwV7F93eNqUoKEDkOZtTUNiO9x37R4O"
+   DB_DRIVER="mysql"
+   DB_SERVER="localhost"
+   DB_USER="root"
+   DB_PASSWORD="root"
+   DB_DATABASE="stphp"
+   DB_SCHEMA="public"
+   DB_TABLE_PREFIX=""
+   DB_PORT="3306"
+   DEFAULT_SITE_URL="stphp.test"
    ```
 
 4. Ensure that the following files and directories have permissions that will allow PHP to read and write to them:
