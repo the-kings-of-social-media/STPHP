@@ -1,0 +1,32 @@
+email:
+  fromEmail: brent@moxycompany.com
+  fromName: 'St. Tammany Parish Pediatrics'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  7810689e-a439-44e4-a203-1f11e0c74c95:
+    name: Common
+siteGroups:
+  1a5079bb-c97b-45a2-bc2f-1ec6cd7eee4c:
+    name: 'St. Tammany Parish Pediatrics'
+sites:
+  e21e108e-6a68-4988-92c8-1a0ad1ddde57:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: en-US
+    name: 'St. Tammany Parish Pediatrics'
+    primary: true
+    siteGroup: 1a5079bb-c97b-45a2-bc2f-1ec6cd7eee4c
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'St. Tammany Parish Pediatrics'
+  schemaVersion: 3.1.23
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
